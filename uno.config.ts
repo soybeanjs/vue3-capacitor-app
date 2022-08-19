@@ -40,6 +40,10 @@ export default defineConfig({
     'transition-base': 'transition-all duration-300 ease-in-out'
   },
   theme: {
-    colors: {}
+    colors: {},
+    spacing: {
+      'safe-area-inset-top': 'env(safe-area-inset-top)',
+      'safe-area-inset-bottom': 'env(safe-area-inset-bottom)'
+    }
   }
 });
